@@ -188,7 +188,7 @@
     }
     
     float interval = stats.endTime - stats.startTime;
-    return [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@\n",
+    return [NSString stringWithFormat:@"%@\n%@\n%@\n%@\n%@",
             [NSString stringWithFormat:NSLocalizedString(@"Video stream: %dx%d %.2f FPS (Codec: %@)", ""),
              _config.width,
              _config.height,
